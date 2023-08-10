@@ -7,6 +7,11 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+//template_wt0de4a
+//service_4gzzsdn
+//RWzxgjaQ-_TzbWtCR
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -14,9 +19,9 @@ const Contact = () => {
     email: "",
     message: "",
   });
-const service = "service_l4672mo"
-const template = "template_9y4jvao"
-const public_key = "UZBYWlsxmFADkV1bJ"
+const service = "service_4gzzsdn"
+const template = "template_wt0de4a"
+const public_key = "RWzxgjaQ-_TzbWtCR"
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -87,7 +92,7 @@ const public_key = "UZBYWlsxmFADkV1bJ"
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your  name?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
