@@ -198,7 +198,7 @@ const projects = [
   {
     name: "Flipkart Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to see different products of different brands and can buy their product",
     
       tags: [
       {
