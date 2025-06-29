@@ -33,8 +33,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Shipra</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop static and <br className='sm:block hidden' />
-            dynamic websites.
+            MERN Stack <br className='sm:block hidden' />
+            developer.
           </p>
         </div>
       </div>

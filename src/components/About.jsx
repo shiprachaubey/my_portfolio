@@ -50,9 +50,7 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
      
-        A software engineer with a strong command of the MERN stack. My journey in the realm of coding and development has led me to master MongoDB, Express.js,
-         React, and Node.js – the core components of MERN. I'm passionate about crafting seamless web applications, creating interactive user experiences. 
-         I'm always eager to learns and grow in the software development field. .
+        A skilled  Developer with expertise in JavaScript, TypeScript, and the MERN stack (MongoDB, Express.js, React, Node.js), along with proficiency in modern technologies like AWS, Docker, Kafka and Redis. I specialize in developing real-time applications, optimizing databases, and implementing robust RESTful APIs. With hands-on experience in high-traffic platforms and a strong foundation in cloud services and microservices architecture, I thrive in solving complex problems and enhancing system performance.
        </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
