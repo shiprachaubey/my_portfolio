@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -7,10 +7,11 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-//template_wt0de4a
-//service_4gzzsdn
-//RWzxgjaQ-_TzbWtCR
-
+// EmailJS configuration
+// Using EmailJS default service to avoid Gmail API authentication issues
+const serviceId = "service_50tfro8"; // Keep your current service ID
+const templateId = "template_804gfbk"; // Keep your current template ID
+const publicKey = "JWCoX2vGZ3CKsJAzr"; // Keep your current public key
 
 const Contact = () => {
   const formRef = useRef();
@@ -19,10 +20,12 @@ const Contact = () => {
     email: "",
     message: "",
   });
-const service = "service_4gzzsdn"
-const template = "template_wt0de4a"
-const public_key = "RWzxgjaQ-_TzbWtCR"
   const [loading, setLoading] = useState(false);
+
+  // Initialize EmailJS
+  useEffect(() => {
+    emailjs.init(publicKey);
+  }, []);
 
   const handleChange = (e) => {
     const { target } = e;
@@ -36,22 +39,51 @@ const public_key = "RWzxgjaQ-_TzbWtCR"
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // Basic validation
+    if (!form.name.trim() || !form.email.trim() || !form.message.trim()) {
+      alert("Please fill in all fields.");
+      return;
+    }
+
+    // Email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(form.email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+
     setLoading(true);
 
+    // Log the parameters being sent for debugging
+    console.log("Sending email with parameters:", {
+      serviceId,
+      templateId,
+      publicKey,
+      templateParams: {
+        from_name: form.name,
+        from_email: form.email,
+        to_name: "Shipra Chaubey",
+        message: form.message,
+      }
+    });
+
     emailjs
-      .send(`${service}`,`${template}`,
-				{
-					from_name: form.email,
-					to_name: "Shipra Chaubey",
-					from_email: form.email,
-					to_email: "cshipra756@gmail.com",
-					message: form.message,
-				},
-				`${public_key}`
+      .send(
+        serviceId,
+        templateId,
+        {
+          from_name: form.name,
+          from_email: form.email,
+          to_name: "Shipra Chaubey",
+          message: form.message,
+        },
+        publicKey
       )
       .then(
-        () => {
+        (result) => {
           setLoading(false);
+          console.log("Email sent successfully:", result);
           alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
@@ -62,9 +94,13 @@ const public_key = "RWzxgjaQ-_TzbWtCR"
         },
         (error) => {
           setLoading(false);
-          console.error(error);
+          console.error("EmailJS Error Details:", {
+            text: error.text,
+            status: error.status,
+            message: error.message
+          });
 
-          alert("Ahh, something went wrong. Please try again.");
+          alert(`Error: ${error.text || 'Something went wrong. Please try again.'}`);
         }
       );
   };
@@ -128,7 +164,7 @@ const public_key = "RWzxgjaQ-_TzbWtCR"
           <button
             type='submit'
             className='bg-tertiary   font-medium py-3 px-8 rounded-xl outline-none w-fit text-secondary font-bold shadow-md shadow-primary'
-            onClick={() => window.open("https://drive.google.com/open?id=1hAajsdRZ2PrNyBVcP5nYReb539uggsrJ&authuser=0", "_blank")}
+            onClick={() => window.open("https://drive.google.com/file/d/1unqGzbn7h6AuomxMYQedbt5HQ9jEy6te/view?usp=sharing", "_blank")}
           >
              
            {"My Resume"}
