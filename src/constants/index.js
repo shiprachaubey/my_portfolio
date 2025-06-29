@@ -277,18 +277,45 @@ const projects = [
   },
 
   {
-    name: "Sorting Visualizer",
-    description:
-      "It helps to sort given array . It also generate new array and sort through different sorting methods like merge sort, quick sort etc",
-      tags: [
-      {
-        name: "javascript",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: carrent2,
-    source_code_link: "https://joyful-sundae-24ae14.netlify.app//",
-  },
+  name: "GSBpathy: Full-Stack Healthcare Platform",
+  description:
+    "Designed and developed complete  platform with appointment scheduling, patient records management, and telehealth features. Built with React frontend and Node.js backend serving 10K+ monthly users.",
+  
+  tags: [
+    {
+      name: "react-native",
+      color: "blue-text-gradient", // Frontend
+    },
+    {
+      name: "nodeJs",
+      color: "green-text-gradient", // Backend
+    },
+    {
+      name: "mongodb",
+      color: "orange-text-gradient", // Database
+    },
+    {
+      name: "aws",
+      color: "pink-text-gradient", // Deployment
+    },
+  ],
+  image: carrent2,
+  
+}
+
+  // {
+  //   name: "Sorting Visualizer",
+  //   description:
+  //     "It helps to sort given array . It also generate new array and sort through different sorting methods like merge sort, quick sort etc",
+  //     tags: [
+  //     {
+  //       name: "javascript",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: carrent2,
+  //   source_code_link: "https://joyful-sundae-24ae14.netlify.app//",
+  // },
 
   /*{
     name: "Crypto Exchange",
@@ -338,71 +365,71 @@ const projects = [
   },*/
 ];
 const certificates = [
-  {
-    name: "Udemy",
-    description:
-      "React JS Masterclass",
-    tags: [
-      {
-        name: "",
-        color: "",
-      },
-      {
-        name: "",
-        color: "",
-      },
-      {
-        name: "",
-        color: "",
-      },
+  // {
+  //   name: "Udemy",
+  //   description:
+  //     "React JS Masterclass",
+  //   tags: [
+  //     {
+  //       name: "",
+  //       color: "",
+  //     },
+  //     {
+  //       name: "",
+  //       color: "",
+  //     },
+  //     {
+  //       name: "",
+  //       color: "",
+  //     },
       
-    ],
-    image: certificateudemy,
-    source_code_link: "https://drive.google.com/file/d/113m4zM8pDQCAet0J3QK2PmdE--Qb5D4q/view?usp=drive_links",
-  },
-  {
-    name: "Oracle",
-    description:
-      "Database Foundation ",
-    tags: [
-      {
-        name: "",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "",
-        color: "green-text-gradient",
-      },
-      {
-        name: "",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: certificateorc,
-    source_code_link: "https://drive.google.com/file/d/118DBDs11dqQiAUxjIrN7k83j_IgzrkQp/view?usp=drive_link",
-  },
+  //   ],
+  //   image: certificateudemy,
+  //   source_code_link: "https://drive.google.com/file/d/113m4zM8pDQCAet0J3QK2PmdE--Qb5D4q/view?usp=drive_links",
+  // },
+  // {
+  //   name: "Oracle",
+  //   description:
+  //     "Database Foundation ",
+  //   tags: [
+  //     {
+  //       name: "",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
+  //   image: certificateorc,
+  //   source_code_link: "https://drive.google.com/file/d/118DBDs11dqQiAUxjIrN7k83j_IgzrkQp/view?usp=drive_link",
+  // },
   
-  {
-    name: "Red Hat",
-    description:
-      "Letter of Appreciation for taking IT Apetitude Test",
-    tags: [
-      {
-        name: "",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "",
-        color: "green-text-gradient",
-      },
-      {
-        name: "",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: certificaterd,
-    source_code_link: "https://drive.google.com/file/d/114WwkDpzw0ipCICwBCWbfyM9hR4cBmfn/view?usp=drive_link",
-  },
+  // {
+  //   name: "Red Hat",
+  //   description:
+  //     "Letter of Appreciation for taking IT Apetitude Test",
+  //   tags: [
+  //     {
+  //       name: "",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
+  //   image: certificaterd,
+  //   source_code_link: "https://drive.google.com/file/d/114WwkDpzw0ipCICwBCWbfyM9hR4cBmfn/view?usp=drive_link",
+  // },
   
     
 ];
