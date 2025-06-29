@@ -66,7 +66,7 @@ const services = [
     link: "#"
   },
   {
-    title: "Mern Stack Developer",
+    title: "Backend Developer",
     icon: backend,
     link: "#"
   },
@@ -78,51 +78,64 @@ const services = [
   {
     title: "My LinkedIn",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/shiprachaueby/",
+    link: "https://www.linkedin.com/in/shipra-chaubey/",
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
+  // {
+  //   name: "React JS",
+  //   icon: reactjs,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
 
 
 ];
 
 const experiences = [
-  {
-    title: "Web developer Intern",
-    company_name: "Weborg Technologies",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "Feb 2023 - April 2023",
+
+{
+    title: "Full Stack Developer",
+    company_name: "Reeltor Private Limited",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - March 2025",
     points: [
-      "Developing and maintaining web applications using HTML, CSS, JavaScript and other related technologies.",
-      "Collaborating with client and content creator to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Defining Firebase schemas for Firestore, Managing data in Cloud storage, and Implementing Firebase services.",
+      "Developed a Top Locality Recommendation System using property-to-locality trend mapping, locality- based user engagement analysis, and automated periodic data collection via cron jobs.",
+      "Contributed to the Reel Cluster Recommendation System, enabling personalized property suggestions based on user behavior, preferences, and location-based clustering.",
+      "Designed and implemented a nested threaded comment system within the community section , en- abling deep discussions around properties, neighborhoods, and real estate topics. This allowed users to seamlessly traverse related threads and property pages, enhancing in-app engagement and discovery.",
+    ],
+  },
+
+  {
+    title: " Full Stack Developer",
+    company_name: "Multigrad Private Limited",
+    icon: shopify,
+    iconBg: "#383E56",
+    date: "Jan 2024 - Jun 2024",
+    points: [
+      "Designed and developed RESTful APIs for user authentication, course management, and content deliv- ery.",
+      "Collaborated with frontend and mobile teams for smooth API integration and end-to-end feature delivery.",
+      "Integrated Online Payment (OP) systems using gateways like Razorpay handling transactions, refunds, and payment status updates.",
     ],
   },
   {
@@ -132,39 +145,25 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "july 2023 - August 2023",
     points: [
-      "Contributed to the development of a  website using HTML, CSS, JS.",
-      "Implemented interactive features and dynamic elements with JavaScript to enhance user engagement.:",
+       "Implemented interactive features and dynamic elements with JavaScript to enhance user engagement.:",
        "Ensured a responsive design across various devices using Bootstrap's grid system and components.",
        "Got to learn more about React, worked on some sample projects.",
-       "Collaborated with the development team, participating in code reviews and addressing bugs for optimization.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Web developer Intern",
+    company_name: "Weborg Technologies",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "Feb 2023 - April 2023",
+    points: [
+      "Developing and maintaining web applications using JavaScript, Typescript  and other related technologies.",
+      "Collaborating with client and content creator to create high-quality products.",
+      "Defining Firebase schemas for Firestore, Managing data in Cloud storage, and Implementing Firebase services.",
+    ],
+  },
+ 
+  
 ];
 
 const testimonials = [
