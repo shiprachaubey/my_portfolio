@@ -166,38 +166,66 @@ const experiences = [
   
 ];
 
+// const testimonials = [
+//   {
+//     testimonial:
+//       "As an engineering student juggling coursework and web development gigs, I've mastered the art of coding efficiency. Discover shortcuts and code snippets to speed up your development process and boost productivity. ",
+//     name: "Efficient Coding with Shortcuts & Snippets",
+//     designation: "#CodingShortcuts #WebDevHacks",
+//     company: "",
+//     image: "",
+//   },
+//   {
+//     testimonial:
+//       "Being both a web developer and an engineering student, I understand the importance of choosing the right JavaScript framework. Dive into this brief comparison of React, Angular, and Vue to find the best fit for your next project. ",
+//     name: "JavaScript Frameworks: A Quick Comparison",
+//     designation: "#JavaScript #WebDevelopment",
+//     company: "",
+//     image: "",
+//   },
+//   {
+//     testimonial:
+//       "As a freelancer and engineering student, I've found that optimizing the user experience (UX) is crucial. From intuitive navigation to responsive design, Good UX  will ensure your website leaves a lasting impression.",
+//     name: "Streamlining UX: Crucial and impressive",
+//     designation: "#WebDevTips #UXDesign",
+//     company: "",
+//     image: "",
+//   },
+// ];
+
+
 const testimonials = [
   {
     testimonial:
-      "As an engineering student juggling coursework and web development gigs, I've mastered the art of coding efficiency. Discover shortcuts and code snippets to speed up your development process and boost productivity. ",
-    name: "Efficient Coding with Shortcuts & Snippets",
-    designation: "#CodingShortcuts #WebDevHacks",
-    company: "",
+      "Shipra's work on our Real Estate Platform's backend systems was transformative. Her implementation of Kafka for real-time user tracking and Redis-backed collaborative filtering boosted engagement by 27%. A true problem-solver with deep expertise in scalable architectures.",
+    name: "Reelton Tech Team",
+    designation: "Real Estate Platform",
+    company: "Reelton",
     image: "",
   },
   {
     testimonial:
-      "Being both a web developer and an engineering student, I understand the importance of choosing the right JavaScript framework. Dive into this brief comparison of React, Angular, and Vue to find the best fit for your next project. ",
-    name: "JavaScript Frameworks: A Quick Comparison",
-    designation: "#JavaScript #WebDevelopment",
-    company: "",
+      "She architected our multi-vendor marketplace backend with seamless JWT authentication and optimized MongoDB schemas. Her REST APIs reduced latency by 40%, and her attention to security was exceptional.",
+    name: "Developer Team",
+    designation: "E-Commerce Project",
+    company: "Weborg Technologies",
     image: "",
   },
   {
     testimonial:
-      "As a freelancer and engineering student, I've found that optimizing the user experience (UX) is crucial. From intuitive navigation to responsive design, Good UX  will ensure your website leaves a lasting impression.",
-    name: "Streamlining UX: Crucial and impressive",
-    designation: "#WebDevTips #UXDesign",
-    company: "",
+      "Shipra’s role in designing our dating app’s Redis backend for real-time matches was pivotal. Her database optimizations and load testing strategies ensured high performance under peak traffic.",
+    name: "Kapslog Development Team",
+    designation: "Dating App",
+    company: "Kapslog",
     image: "",
   },
 ];
 
 const projects = [
   {
-    name: "Flipkart Clone",
+    name: "Multi-Vendor Marketplace Backend",
     description:
-      "Web-based platform that allows users to see different products of different brands and can buy their product",
+      "Scalable e-commerce backend supporting vendors, enabling seamless product discovery, secure transactions, and personalized user experiences",
     
       tags: [
       {
@@ -218,34 +246,34 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://mern-clone-flipkart-p2p.netlify.com/",
+    // source_code_link: "https://mern-clone-flipkart-p2p.netlify.com/",
   },
 
   {
-    name: "Netflix Clone",
-    description:
-      "An app to help you manage your movie-watching preferences. You can see the popular, upcomimg movies and also get the details of movies",
+    name: "Reeltor: A Real Estate Platform",
+     description:
+    "Architected the core backend for 500K+ MAU real estate platform featuring locality recommendations, threaded comments, and real-time behavior tracking with 27% higher conversion rates.",
       
       tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
-     /* {
+     {
         name: "mongodb",
         color: "green-text-gradient",
       },
       {
         name: "expressJs",
         color: "orange-text-gradient",
-      },*/
+      },
       {
         name: "redux",
         color: "pink-text-gradient",
       },
     ],  
     image: carrent3,
-    source_code_link: "https://tranquil-pony-017a96.netlify.app/",
+    // source_code_link: "https://tranquil-pony-017a96.netlify.app/",
   },
 
   {
